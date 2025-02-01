@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>online blog</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <header class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <h1 class="text-2xl font-bold">My Blog</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <a href="#featured" class="hover:text-blue-300">Featured</a>
+            </li>
+            <li>
+              <a href="#categories" class="hover:text-blue-300">Categories</a>
+            </li>
+            <li>
+              <a href="#recent" class="hover:text-blue-300">Recent Posts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="featured" class="py-12 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Featured Posts</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white shadow-md rounded-md">
+            <img
+              src="https://justglobetrotting.com/wp-content/uploads/2015/07/TRAVEL-600x600.jpg"
+              alt="Featured Post"
+              class="w-full rounded-t-md"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Travelling</h3>
+              <p class="text-gray-600">Brief excerpt of the post...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="py-12 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Categories</h2>
+        <div class="flex justify-center space-x-4">
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full"
+            >Technology</span
+          >
+          <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full"
+            >Lifestyle</span
+          >
+          <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full"
+            >Travel</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="recent" class="py-12 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Recent Posts</h2>
+        <ul class="space-y-4">
+          <li class="flex justify-between items-center">
+            <span class="font-semibold">Travelling Post </span>
+            <span class="text-gray-500">Jan 20, 2025</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-12 bg-gray-200">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+        <form
+          class="max-w-lg mx-auto bg-white p-6 shadow-md rounded-md space-y-4"
+        >
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-2 border rounded-md"
+          />
+          <button
+            class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>© 2025 My Blog. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
